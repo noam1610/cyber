@@ -12,8 +12,14 @@ There are several registry that are read at reboot. These registry allow program
 my_favorite_software C:\windows\system32\calc32.exe
 '''
 
+All of these registries are available in 32bit:
+* HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+* HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnceEx
+* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Runonce
+* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunonceEx
 
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnceEx
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Runonce
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunonceEx
+All of these registries are available in 32bit:
+* HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce
+* HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx
+* HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Runonce
+* HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunonceEx
